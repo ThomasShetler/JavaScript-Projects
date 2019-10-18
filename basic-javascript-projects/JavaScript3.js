@@ -1,4 +1,4 @@
 function myfun() {
-    var addition = 2+2;
-    document.getElementById("math").innerHTML = "2+2 =" + addition;
+    var sub = 4-2;
+    document.getElementById("math").innerHTML = "4-2 =" + sub;
 }
