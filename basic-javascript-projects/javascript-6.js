@@ -36,3 +36,11 @@ var joe=new Person("Joe", "Smith",67,"brown")
 function personfun(){
     document.getElementById("disp").innerHTML="this mans name is "+joe.firstName + joe.lastName + "they are " + joe.age;
 }
+
+function count_fun(){
+    document.getElementById("Nested_Function").innerHTML= Count();
+        var statrting_point = 9;
+        function plus_one() {statrting_point +=1;}
+        plus_one();
+        return Starting_Point;
+}
