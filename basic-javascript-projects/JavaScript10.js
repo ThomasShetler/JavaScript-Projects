@@ -29,7 +29,7 @@ document.write(y);
 document.write("<br>"+y);
 }
 document.write("<br>"+ y);
-
+//yo this is comment
 function myFunction(name) {
     return "Hello " + name;
   }
@@ -45,3 +45,11 @@ function myFunction(name) {
 
    };
    document.getElementById("car-object").innerHTML = car.description();
+   for (i = 0; i < 10; i++) {
+    if (i === 3) { break; }
+    text += "The number is " + i + "<br>";
+  }
+  for (i = 0; i < 10; i++) {
+    if (i === 3) { continue; }
+    text += "The number is " + i + "<br>";
+  }
