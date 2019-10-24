@@ -5,4 +5,6 @@ console.log(2+2);
 document.write(5 > 2 && 10 > 4);
 function not_Function(){
     document.getElementById("not").innerHTML=!(20>10);
+
+    xo
 }
