@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript">
+</script>
+<link rel="stylesheet" type="text/css" href="">
+</head>
+<script>
+$(document).ready(function() {
+    $("html").append(
+    "<body>\
+        <div id='container'>\
+            <div id='inner'>\
+                <h2>basic jquery</h2>\
+                <p id='1'> hello </p>\
+                <p id='2'> hello </p>\
+                <p id='3'> hello </p>\
+            </div>\
+        </div>\
+    </body>"
+    );
+    $("#2").css({"color":"red"});
+    $("#3").click(function(){
+        $('h2').hide();
+    });
+    $("#1").click(function(){
+        $('#1').fadeOut( 1500 );
+    });
+});
+</script>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<link rel="stylesheet" type="text/css" href="">
+<body>
+    <div>
+        <h2 id="text">Hi</h2>
+        <input type="button" class ="button" onclick="onFocus();">
+    </div>
+    <!-- Script Section -->
+    <script type="text/javascript">
+    var x = document.getElementById("text");
+    document.getElementById("text").focus();
+    function onFocus(){
+    if (document.hasFocus()){
+        document.getElementById("text").innerHTML = "the document has focus";
+    }
+    else {
+        document.getElementById("text").innerHTML = "the document doesn't have focus";
+    }
+}
+    </script>
+    <!-- Script Section end -->
+</body>
+</html>
