@@ -1,0 +1,45 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color:white;
+    color:black;
+
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+.jumbotron{
+    background-color: lightgreen;
+}
+.inputs{
+    
+    display: inline-block;
+    padding: 25px;
+    width: 50%;
+    margin-top: 25px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    align-content: left;
+}
+.col-sm{
+    display:inline; 
+}
+.list-group{
+    background-color: lightgreen
+}
+.container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.card{
+    background-color: lightgreen;
+}
+#label{
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+}
